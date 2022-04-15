@@ -9,7 +9,7 @@
     <ProjectGuid>{7E4720E8-8FFC-4A08-8665-82D53DE7A423}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassLibrary1</RootNamespace>
+    <RootNamespace>PolygonLibrary</RootNamespace>
     <AssemblyName>ClassLibrary1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

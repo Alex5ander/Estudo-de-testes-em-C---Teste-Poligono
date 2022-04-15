@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Informações gerais sobre um assembly são controladas através do seguinte 
 // conjunto de atributos. Altere o valor destes atributos para modificar a informação
 // associada a um assembly.
-[assembly: AssemblyTitle("ClassLibrary1")]
+[assembly: AssemblyTitle("PolygonLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ClassLibrary1")]
+[assembly: AssemblyProduct("PolygonLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

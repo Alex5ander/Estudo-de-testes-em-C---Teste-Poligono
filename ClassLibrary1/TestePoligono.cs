@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using API_POLIGONOS;
 using NUnit.Framework;
 
-namespace ClassLibrary1
+namespace PolygonLibrary
 {
     [TestFixture]
     public class TestePoligono
