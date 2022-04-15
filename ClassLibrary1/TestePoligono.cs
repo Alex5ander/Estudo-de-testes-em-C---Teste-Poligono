@@ -20,11 +20,12 @@ namespace ClassLibrary1
             double perimetro = obj.Perimetro();
             double area = obj.Area();
 
-            Assert.AreEqual(Math.PI, area, "Falha teste area");
-
-            Assert.AreEqual(6.2831853071795862, perimetro, "Falha teste perimetro");
+            Assert.AreEqual(2, diametro, "Falha teste diametro do circulo");
+            Assert.AreEqual(6.2831853071795862, perimetro, "Falha teste perimetro do circulo");
+            Assert.AreEqual(Math.PI, area, "Falha teste area do circulo");
         }
 
+        [Test]
         public void TestarTriangulo()
         {
             double L1 = 100;
@@ -34,6 +35,10 @@ namespace ClassLibrary1
             double perimetro = obj.Perimetro();
             double area = obj.Area(100);
             string tipo = obj.Tipo();
+
+            Assert.AreEqual(300, perimetro, "Falha teste perimetro do trângulo");
+            Assert.AreEqual(5000, area, "Falha teste area do triângulo");
+            Assert.AreEqual("equilatero", tipo, "Falha teste tipo do triângulo");
         }
     }
 }
